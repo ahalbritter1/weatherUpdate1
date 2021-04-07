@@ -1,0 +1,207 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: url("https://images.unsplash.com/photo-1416431168657-a6c4184348ab?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.input {
+  text-align: center;
+  margin: 20px 0;
+}
+
+input[type="text"] {
+  height: 50px;
+  width: 600px;
+  background: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+input[type="submit"] {
+  height: 50px;
+  width: 100px;
+  background: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  border-radius: 20px;
+  margin-right: 30px;
+}
+
+input[type="submit"]:hover {
+  background: black;
+  color: white;
+}
+
+.display {
+  opacity: 0;
+  color: black;
+  position: absolute;
+  top: 12em;
+  left: 10em;
+  width: 25em;
+  height: 40em;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.today {
+  position: absolute;
+  font-size: 30px;
+  top: 3em;
+  left: 5.3em;
+  color: black;
+  font-weight: bold;
+}
+.name {
+  font-size: 30px;
+}
+
+.description {
+  font-size: 30px;
+}
+
+.temp {
+  font-size: 30px;
+}
+
+.humidity {
+  font-size: 30px;
+}
+
+.forecastDisplay {
+  opacity: 0;
+  color: black;
+  position: absolute;
+  top: 12em;
+  left: 45em;
+  width: 25em;
+  height: 40em;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.tomorrow {
+  position: absolute;
+  font-size: 30px;
+  top: 3em;
+  left: 4.5em;
+  color: black;
+  font-weight: bold;
+}
+.forecastH1 {
+  font-size: 30px;
+}
+
+.forecastDescription {
+  font-size: 30px;
+}
+
+.forecastDay2 {
+  font-size: 30px;
+}
+
+.forecastHumidity {
+  font-size: 30px;
+}
+
+.cardBackground {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.display img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: 150px;
+}
+
+.forecastDisplay img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: 150px;
+}
+
+.weeklyForecast {
+  opacity: 1;
+  color: black;
+  position: absolute;
+  top: 12em;
+  left: 80em;
+  width: 25em;
+  height: 40em;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.weeklyForecastTxt {
+  position: absolute;
+  font-size: 30px;
+  top: 3em;
+  left: 3em;
+  color: black;
+  font-weight: bold;
+}
+
+.weeklyThirdDay {
+  font-size: 25px;
+  position: absolute;
+  top: 3em;
+  left: 5em;
+}
+
+.weeklyFourthDay {
+  font-size: 25px;
+  position: absolute;
+  top: 8em;
+  left: 5em;
+}
+
+.weeklyFifthDay {
+  font-size: 25px;
+  position: absolute;
+  top: 13.5em;
+  left: 5em;
+}
+
+.weeklyForecastDescription3 {
+  font-size: 25px;
+}
+
+.weeklyForecastDescription4 {
+  font-size: 25px;
+}
+
+.weeklyForecastDescription5 {
+  font-size: 25px;
+}
+
+.forecastPackage {
+  position: absolute;
+  top: 10em;
+}
